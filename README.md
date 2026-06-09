@@ -1,41 +1,75 @@
-# VoiceInput
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# voice-input-dist
 
-A macOS menu-bar application that converts speech to text in real time using Apple's built-in Speech Recognition framework. Press a hotkey, speak, and the transcribed text is injected directly into the currently focused text field.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/voice-input-dist)
 
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
+## Architecture
 
-https://github.com/user-attachments/assets/3228f78a-f035-447d-98ef-8826798a122c
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
+## Install
 
-
-## Requirements
-
-- macOS 14.0 (Sonoma) or later
-- Xcode Command Line Tools (for `swift build`)
-
-## Build & Run
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-make build   # build the .app bundle
-make run     # build and launch
-make install # copy to /Applications
-make clean   # remove build artifacts
+git clone https://github.com/Interested-Deving-1896/voice-input-dist.git
+cd voice-input-dist
 ```
 
-## Source Code
+## Usage
 
-The full source code lives at **<https://github.com/yetone/voice-input-src>**.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-> **Reproducibility guarantee:** the source repository contains every file needed to produce **exactly** this distributed artifact. You can clone it and run `make build` to obtain an identical `VoiceInput.app` bundle. The build process is recorded and publicly verifiable — see the asciinema session below.
+## Configuration
 
-## Build Recording
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-A complete, unedited terminal recording of the build from source is available here:
+## CI
 
-[![asciicast](https://asciinema.org/a/cHD6XaaNvomCuysh.svg)](https://asciinema.org/a/cHD6XaaNvomCuysh)
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-This recording demonstrates that the source code at <https://github.com/yetone/voice-input-src> **can and does** build this exact artifact without modification.
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/voice-input-dist`](https://github.com/Interested-Deving-1896/voice-input-dist) and mirrored through:
+
+```
+Interested-Deving-1896/voice-input-dist  ──►  OpenOS-Project-OSP/voice-input-dist  ──►  OpenOS-Project-Ecosystem-OOC/voice-input-dist
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-See the source repository for license details.
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
